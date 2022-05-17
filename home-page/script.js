@@ -1,7 +1,7 @@
 
 document.addEventListener("scroll", () => {
     fade(615, "start-page");
-    fade(780, "projects-title");
+    fade(770, "projects-title");
     fade(1313, "projects-cards");
     fade(1445, "button-block");
 });
