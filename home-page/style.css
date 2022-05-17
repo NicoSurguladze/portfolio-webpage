@@ -54,6 +54,8 @@ nav {
     width: 100%;
     height: 100vh;
     background-image: url(/Images/BackGround\ 3.jpg);
+    visibility: visible;
+    opacity: 1;
 }
 
 #about-section {
@@ -96,13 +98,13 @@ nav {
 
 #projects {
     width: 100%;
-    height: 1000px;
+    height: 950px;
 }
 
 #projects-content {
     position: absolute;
     width: 100%;
-    height: 750px;
+    height: 950px;
 }
 
 #projects-title {
@@ -134,6 +136,11 @@ nav {
     -webkit-backdrop-filter: blur(5px);
     border: 1px solid rgba(255, 255, 255, 0.101);
     
+}
+
+.card-link {
+    text-decoration: none;
+    color: white;
 }
 .card-image {
     width: 250px;
@@ -173,8 +180,61 @@ nav {
 
 .card:hover {
     cursor: pointer;
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 5px 15px rgba(128, 128, 128, 0.4);
 }
 
 .card:hover .card-image {
     filter: brightness(100%);
+}
+
+#button-block {
+    margin-top: 70px;
+    width: 100%;
+    text-align: center;
+}
+
+#view-all-button {
+    width: 160px;
+    height: 40px;
+    font-size: 16px;
+    background-color: transparent;
+    border: solid white;
+    border-radius: 20px;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    cursor: pointer;
+}
+
+#view-all-button:hover {
+    background-color: white;
+    color: black;
+}
+
+#skills {
+    width: 100%;
+    height: 600px;
+    position: relative;
+}
+
+#skills-content {
+    position: absolute;
+    top: 100px;
+    left: 63.44px;
+    height: 400px;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#skills-title {
+    font-size: 45px;
+    font-weight: 500;
+    margin-left: 130px;
+}
+
+.skills-logos {
+    height: 150px;
 }
