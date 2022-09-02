@@ -298,6 +298,8 @@ nav {
     border: solid white;
     border-radius: 20px;
     padding: 8px 25px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
 }
 
 #download-link:hover {
