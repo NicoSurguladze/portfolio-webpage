@@ -1,1 +1,1 @@
-https://nicosurguladze.github.io/portfolio-webpage/
+https://nicosurguladze.github.io/portfolio-webpage/home-page/
