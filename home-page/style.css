@@ -275,12 +275,19 @@ nav {
     font-size: 22px;
 }
 
+.phone-number-container {
+    display: flex;
+    align-items: center;
+}
+
 .flag-logo {
     width: 25px;
+    margin-right: 13px;
 }
 
 #whatsapp-logo {
     width: 30px;
+    margin-right: 10px;
 }
 
 .social-media-link {
