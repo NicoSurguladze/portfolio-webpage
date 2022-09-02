@@ -20,7 +20,7 @@ function fade(scrollPos, elId) {
         document.getElementById(elId).style.transition = "opacity 1s linear";
 
     }
-    console.log(window.pageYOffset);
+
 }
 
 
